@@ -4,3 +4,4 @@ echo "If I had no assistance from ChatGPT, I would be like an elephant in a chin
 git add README.md
 git commit -m "Add README with ChatGPT assistance statement"
 git push
+Add README with ChatGPT assistance statement
