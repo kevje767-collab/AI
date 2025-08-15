@@ -28,3 +28,12 @@ Feel free to fork, stare, or cry in despair at the sheer magnitude of debility c
 *
 !.gitignore
 !README.md
+# Hittegolf-modus: hersenen op laag pitje
+if temperatuur >= 30:  # graden Celsius
+    focus = "matig"
+    domheidsniveau = "extra hoog"
+    print("Waarschuwing: tijdens hittegolf ben ik nog dommer dan normaal 😵‍💫")
+else:
+    focus = "normaal"
+    domheidsniveau = "standaard"
+    print("Hersenen functioneren binnen normale marges.")
