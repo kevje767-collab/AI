@@ -1,0 +1,33 @@
+class CannabisSoort:
+    def __init__(self, naam, type, beschrijving):
+        self.naam = naam
+        self.type = type
+        self.beschrijving = beschrijving
+
+    def info(self):
+        return f"Soort: {self.naam}\nType: {self.type}\nBeschrijving: {self.beschrijving}\n"
+
+# Voorbeeldsoorten
+sativa = CannabisSoort(
+    naam="Sativa Dominant",
+    type="Sativa",
+    beschrijving=(
+        "Sativa-dominante soorten staan bekend om hun opwekkende en energieke werking. "
+        "Ze worden vaak overdag gebruikt en kunnen creativiteit en focus stimuleren. "
+        "De planten zijn meestal hoger, met smalle bladeren."
+    )
+)
+
+indica = CannabisSoort(
+    naam="Indica Dominant",
+    type="Indica",
+    beschrijving=(
+        "Indica-dominante soorten zorgen meestal voor een ontspannend en kalmerend effect. "
+        "Ze worden vaak 's avonds gebruikt en kunnen helpen bij het slapen of ontspannen. "
+        "De planten zijn meestal korter en breder met bredere bladeren."
+    )
+)
+
+# Print de info
+print(sativa.info())
+print(indica.info())
